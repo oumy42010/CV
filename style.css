@@ -1,0 +1,183 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('dayrom.eot');
+    src: url('dayrom.eot?#iefix') format('embedded-opentype'),
+         url('dayrom.woff') format('woff'),
+         url('dayrom.ttf') format('truetype'),
+         url('dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	
+    margin-top: 30px;
+    padding: 0px;
+	background-image: url("greyzz.png");
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	background-attachment: croll; 
+	background-repeat: repeat;
+}
+.container{
+	background-color: #FFFFF0;
+}
+#Experience, #Competence, #Formation
+{
+    display: inline-block;
+    vertical-align: top; 
+}
+#conteneur
+{  
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media all and (max-width: 1024px)
+{
+    #conteneur
+    {
+        width: auto;
+    }
+}
+
+#Experience
+{
+   float: left;
+	width: 31%; 
+}
+@media all and (max-width: 1024px)
+{
+    #Experience
+    {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+		flex-direction: column; 
+		justify-content: center;
+    }
+}
+
+#Competence
+{
+   float: left;
+   width: 33%;
+    
+}
+@media all and (max-width: 1024px)
+{
+    #Competence
+    {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+		flex-direction: column; 
+		justify-content: center; /* alignement vertical */
+    }
+}
+
+#Formation
+{
+    float: right;
+	width: 31%;"
+}
+@media all and (max-width: 1024px)
+{
+    #Formation
+    {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+		flex-direction: column; 
+		justify-content: center; 
+    }
+}
+
+img
+    {
+        width: 85px;
+		float: right;
+		border: 1px solid black;
+		box-shadow: 2px 2px 2px black;
+    }
+@media all and (max-width: 1024px)
+{
+    
+    img
+    {
+        width: 85px;
+        float: right;
+        margin-left: 15px;
+    }
+}
+h2
+{
+    text-align: center;
+}
+
+h2 :hover{
+    
+    transition: all 0.3s ease 0.2s;
+	color: #000080;
+}
+
+h3{
+	
+	 font-family: Dayrom, serif;
+}
+h3:hover{
+    
+    transition: all 0.3s ease 0.2s;
+	color: #000080;
+}
+
+h4{
+	text-align: center;
+	font-size: 14px;
+	font-family: Dayrom, serif;
+	
+}
+h4:hover{
+    
+    transition: all 0.3s ease 0.2s;
+	color: #000080;
+}
+
+a{
+	margin: 0px;
+    padding: 0px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+
+#liseret
+{
+    display: inline-block;
+    vertical-align: top;
+	background-color: #000080;
+	width: 110px;
+	margin-right: 30px;
+    padding-right: 5px;
+	border-radius: 5px 5px 5px 5px;
+	min-height: 300px;
+}
+
+
+
+@media all and (max-width: 1024px)
+{
+    #liseret
+    {
+        display: none;
+    }
+}
+
+footer{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: 	#191970;
+}
