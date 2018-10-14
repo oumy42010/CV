@@ -33,6 +33,7 @@
     #conteneur
     {
         width: auto;
+	justify-content: center;
     }
 }
 
