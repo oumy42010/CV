@@ -196,9 +196,10 @@ footer h1, nav a
     text-transform: uppercase;
 }
 #page
-    {
-        width: auto;
-    } 
+{
+    width: 920px;
+    margin: auto;
+}
 
 @media all and (max-width: 1024px)
 {
@@ -215,7 +216,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-	width: 900px;
+    width: 920px;
 }
 
 #titre_principal
