@@ -225,17 +225,6 @@ header
     flex-direction: column;
 }
 
-#identité, header h1
-{
-    display: inline-block;
-    margin-bottom: 0px;
-}
-
-#identité img
-{
-    width: 75px;
-    height: 97px;
-}
 
 header h1
 {
