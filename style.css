@@ -200,8 +200,8 @@ footer h1, nav a
 {
     width: 980px;
    /* margin: auto;*/
-	padding:30 px;
-    margin: 30 px;
+	padding:30px;
+    margin: 30px;
 }
 
 @media all and (max-width: 1024px)
