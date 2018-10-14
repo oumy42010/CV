@@ -217,16 +217,8 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 920px;
-}
-
-
-header h1
-{
-    font-family: 'Dayrom', serif;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 0 0 0 10px;
+    width: 950px;
+    margin: 10px;
 }
 
 header strong
