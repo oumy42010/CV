@@ -219,12 +219,6 @@ header
     width: 920px;
 }
 
-#titre_principal
-{
-    display: flex;
-    flex-direction: column;
-}
-
 
 header h1
 {
