@@ -146,29 +146,6 @@ a{
 }
 
 
-#liseret
-{
-        display: inline-block;
-        vertical-align: top;
-	background-color: #000080;
-	width: 150px;
-	margin-right: 30px;
-        padding-right: 5px;
-	border-radius: 5px 5px 5px 5px;
-	min-height: 300px;
-}
-
-
-
-@media all and (max-width: 1024px)
-{
-    #liseret
-    {
-        display: none;
-    }
-}
-
-
 /* Eléments principaux de la page */
 
 body
