@@ -237,7 +237,6 @@ footer p
     font-size: 0.9em;
     margin-top: 0px;
     font-weight: normal;
-	margin: 10px;
 }
 
 /* Navigation */
@@ -304,10 +303,9 @@ nav a:hover
 footer
 {
     background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
-    width: auto;
+    width: 950;
     margin: 10px;
-    padding: 25px;
-    display: flex; 
+    padding: 15px; 
 }
 
 footer p
