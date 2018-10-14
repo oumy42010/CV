@@ -219,7 +219,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 950px;
+    width: auto;
     margin: 10px;
     padding-top: 15px;
 }
@@ -304,6 +304,7 @@ footer
 {
     background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
     padding-top: 25px;
+	width: auto;
 }
 
 footer p
