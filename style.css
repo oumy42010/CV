@@ -219,6 +219,7 @@ header
     align-items: flex-end;
     width: 950px;
     margin: 10px;
+    padding-top: 15px;
 }
 
 header strong
