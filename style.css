@@ -147,12 +147,12 @@ a{
 
 #liseret
 {
-    display: inline-block;
-    vertical-align: top;
+        display: inline-block;
+        vertical-align: top;
 	background-color: #000080;
-	width: 130px;
+	width: 150px;
 	margin-right: 30px;
-    padding-right: 5px;
+        padding-right: 5px;
 	border-radius: 5px 5px 5px 5px;
 	min-height: 300px;
 }
@@ -195,6 +195,10 @@ footer h1, nav a
     font-weight: normal;
     text-transform: uppercase;
 }
+#page
+    {
+        width: auto;
+    } 
 
 @media all and (max-width: 1024px)
 {
