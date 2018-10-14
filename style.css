@@ -175,8 +175,7 @@ body
     background: url('images/fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
-    padding:20;
-    margin: 20;
+    
 }
 
 
@@ -200,7 +199,9 @@ footer h1, nav a
 #page
 {
     width: 980px;
-    margin: auto;
+   /* margin: auto;*/
+	padding:30 px;
+    margin: 30 px;
 }
 
 @media all and (max-width: 1024px)
