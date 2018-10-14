@@ -32,7 +32,6 @@
 {
     #conteneur
     {
-        width: auto;
 	justify-content: center;
     }
 }
@@ -226,7 +225,7 @@ header strong
 {
     font-family: Dayrom, serif;
     font-size: 0.9em;
-    margin-top: 0px;
+    margin-top: 10px;
     font-weight: normal;
 }
 footer p
