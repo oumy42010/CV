@@ -287,7 +287,7 @@ footer
 
 footer p
 {
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 footer h1
@@ -303,13 +303,14 @@ footer h1
 #ucad 
 {
     width: 33%;
-	float: left;
+    float: left;
+    font-size: 0.9em;
 }
 
 
 #ucad img
 {
-    margin-right: 2px;
+    margin-right: 5px;
 }
 #ucad a
 {
@@ -336,7 +337,9 @@ footer h1
 #upem
 {
     width: 31%;
-	float: center;
+    float: center;
+    font-size: 0.9em;
+    
 }
 #upem img
 {
@@ -367,7 +370,8 @@ footer h1
 #ucbl
 {
     width: 31%;
-	float: right;
+    float: right;
+    font-size: 0.9em;
 }
  
 #ucbl img
@@ -397,8 +401,8 @@ footer h1
 }
 #oc
 {
-	float: center;
-	margin: 15px;
+	
+	margin: 50px;
 	font-size: 0.9em;
 	color: grey;
 }
